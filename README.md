@@ -1,5 +1,5 @@
 # You2beDownLoaderLQ
-You2beDownLoaderLQ - for downloading video from url v= ... as you know.
+You2beDownLoaderLQ - for downloading low quality video from url v= ... as you know (see line 119 in the index.php file).
 
 
 Watch carefully the following parameters of the class call: 
