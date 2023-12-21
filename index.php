@@ -116,7 +116,7 @@ class You2beDownLoaderLQ extends DownloadHelper
         $browser_downloading = !(!$options['is_browser_downloading'] || !isset($options['is_browser_downloading']));
         $using_curl = !(!$options['is_using_curl'] || !isset($options['is_using_curl']));
 
-        $videoUrl = sprintf('https://www.youtube.com/watch?v=%s', $videoId);
+        $videoUrl = sprintf('https://www. [Y 0 u T u b @] .com/watch?v=%s', $videoId); // as U know... :)
 
         $html = $using_curl ? $this->curl_get_contents($videoUrl) : @file_get_contents($videoUrl);
         if (!$html) {
