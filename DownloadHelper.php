@@ -2,14 +2,13 @@
 namespace classes;
 class DownloadHelper
 {
-    // file_get_contents analog
+    // Function to get content from a url using cURL
     function curl_get_contents($host, $referer = null)
     {
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_HTTPHEADER, array('Expect:'));
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
-        curl_setopt($ch, CURLOPT_HEADER, 0);
         curl_setopt($ch, CURLOPT_REFERER, $referer);
         curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0");
         curl_setopt($ch, CURLOPT_URL, $host);
