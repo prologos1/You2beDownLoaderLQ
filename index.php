@@ -92,8 +92,8 @@ class You2beDownLoaderLQ extends DownloadHelper
         $form = '
 			<form id="php-form">
 				<div class="form-group">
-					<label for="dl-youtube">Enter url Youtube </label>
-					<input name="url_id" id="dl-youtube" class="form-control" autocomplete="off"></input>
+					<label for="dl-tube">Enter url Y 0 u T u b @ (or watch id)</label>
+					<input name="url_id" id="dl-tube" class="form-control" autocomplete="off"></input>
 				</div>
 				<button type="submit" id="execute-button" class="btn btn-primary">Execute</button>
 			</form>
