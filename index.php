@@ -90,7 +90,7 @@ class You2beDownLoaderLQ extends DownloadHelper
 		</style>
 		';
         $form = '
-			<form id="php-form">
+			<form id="php-form" method="post">
 				<div class="form-group">
 					<label for="dl-tube">Enter url Y 0 u T u b @ (or watch id)</label>
 					<input name="url_id" id="dl-tube" class="form-control" autocomplete="off"></input>
